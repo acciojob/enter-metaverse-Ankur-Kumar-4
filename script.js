@@ -1,11 +1,6 @@
-const pre_element = document.getElementById("status");
-const h1 = document.getElementById("h1");
+const button = document.getElementById("enterBtn");
+const para = document.getElementById("status");
 
-function textChange() {
-
-pre_element.textContent = "";
-h1.textContent = "Entered Metaverse";	
-
-	
-}
-
+button.addEventListener("click",()=> {
+	para.innerHTML = "<h1>Entered Metaverse</h1>"
+})
